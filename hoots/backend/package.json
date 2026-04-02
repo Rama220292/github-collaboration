@@ -1,0 +1,29 @@
+{
+  "name": "hoots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@logtape/logtape": "^2.0.5",
+    "@logtape/pretty": "^2.0.5",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "nodemon": "^3.1.14"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
